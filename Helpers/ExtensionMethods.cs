@@ -29,7 +29,7 @@ namespace WindowsFormsApplication1
             }
 
             // other error
-            MessageBox.Show(errorMessage, messageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            MessageBox.Show(errorMessage + "\n\n" + ex.ToString(), messageBoxTitle, MessageBoxButtons.OK, MessageBoxIcon.Warning);
         }
 
 
